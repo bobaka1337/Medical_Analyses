@@ -1,0 +1,25 @@
+# python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.venv/
+venv/
+env/
+.mypy_cache/
+
+# dotenv / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# local data/artifacts
+data/
+*.csv
+*.log
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
